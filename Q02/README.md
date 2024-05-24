@@ -16,3 +16,9 @@ Desenvolva um conjunto de classes que representam pelo menos 3 tipos de pássaro
 	- Herança;
 	- Polimorfismo;
 	- Encapsulamento.
+
+---
+
+### Overview
+
+Criação de classes com herança simples. Devido a simplicidade proposta, alguns conceitos pedidos, são explorados muito superficialmente: por exemplo, o polimorfismo e encapsulamente quase não são utilizados.O primeiro ocorre apenas em penguim quando utilizamos seu próprio método fly(). O segundo acontece somente por conta que utilizamos data criada (mas não inicializada) na classe base Birds e por que naturalmente declararamos variáveis membros não acessíveis por fora da própria classe.

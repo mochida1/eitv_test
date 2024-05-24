@@ -87,3 +87,14 @@ Entrada: A 7 1
 Saida:   Item 7 inserido.
 Entrada: Q
 Saida:   7(P=1), 5(P=2), 4(P=3), 2(P=4), 6(P=4)
+
+
+---
+
+### Overview
+
+Neste exercício, criei uma especialização do adaptor priority_queue. Se algo já existe e funciona bem, não precisamos reinventar a roda. Adicionei à ela a capacidade de utilizar iterators por meio do find(). Desta forma podemos acessar portanto apenas os elementos de maior prioridade ou o achado pelo find(), tornando-a mais segura.
+
+A classe CLI lida com os inputs do usuário.
+
+> Henrique Mochida Peixoto, 24/05/2024
